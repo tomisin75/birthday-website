@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> E.O.T.F Edit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>alyssa & james | i'm yours and you're mine🎀</h1>
+  </header>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Video</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+Your Favorite, love youuu girll😘
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <h2>Video Player</h2>
+    <div class="video-container">
+      <!-- Video Player: the "src" attribute points to the video file -->
+      <video id="videoPlayer" width="600" controls>
+        <!-- Change the src to the path of your downloaded video -->
+        <source id="videoSource" src="videoplayback.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- Video Controls Section (Optional) -->
+  <section class="controls-section">
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="muteUnmute()">Mute/Unmute</button>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1" onchange="adjustVolume(this.value)">
+  </section>
+
+  <script src="edit-video.js"></script>
+</body>
+</html>
